@@ -1,0 +1,77 @@
+
+.order-item {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+  width: 90%;
+  margin-top: -30%;
+  margin-left: 25%;
+  background-color: rgb(255, 255, 255);
+  width: 70%;
+  }
+  
+  .order-item img {
+  width: 50px;
+  height: auto;
+  margin-right: 20px;
+  }
+  
+  .order-item div {
+  margin-right: 20px;
+  }
+  
+  #OB {
+  padding: 5px 10px;
+  background-color: #3528a7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  }
+  
+  #OB:hover {
+  background-color: #c3c0db;
+  color: #000;
+  }
+  
+  /* Media Queries */
+  
+  /* For screens with max-width of 768px (tablets and below) */
+  @media (max-width: 768px) {
+  .order-item {
+  width: 70%;
+  margin-left: 25%;
+  margin-top: -99vh;
+  font-size: small;
+  justify-content: center;
+  align-items: center;
+  }
+  .order-item img {
+  width: 40px;
+  }
+  .order-item div {
+  margin-right: 15px;
+  }
+  #OB {
+  padding: 4px 8px;
+  }
+  }
+  
+  /* For screens with max-width of 480px (mobile devices) */
+  @media (max-width: 480px) {
+  .order-item {
+  width: 90%;
+  margin-left: 5%;
+  }
+  .order-item img {
+  width: 30px;
+  }
+  .order-item div {
+  margin-right: 10px;
+  }
+  #OB {
+  padding: 3px 6px;
+  }
+  }

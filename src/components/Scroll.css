@@ -1,0 +1,59 @@
+
+.horizontal-scroll {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    }
+    
+    .image-container {
+    width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    margin-top: 1%;
+    }
+    
+    .image-scroll {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 20s linear infinite;
+    }
+    
+    .image-scroll img {
+    width: 90%;
+    height: auto;
+    margin-right: 10px;
+    }
+    
+    @keyframes scroll {
+    0% {
+    transform: translateX(100%);
+    }
+    100% {
+    transform: translateX(-100%);
+    }
+    }
+    
+    /* Media Queries */
+    
+    /* For screens with max-width of 768px (tablets and below) */
+    @media (max-width: 768px) {
+    .image-container {
+    width: 80%;
+    }
+    .image-scroll img {
+    width: 80%;
+    }
+    }
+    
+    /* For screens with max-width of 480px (mobile devices) */
+    @media (max-width: 480px) {
+    .image-container {
+    width: 70%;
+    }
+    .image-scroll img {
+    width: 70%;
+    }
+    }
+    

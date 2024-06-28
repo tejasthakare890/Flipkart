@@ -1,0 +1,64 @@
+
+.main1{
+    justify-content: center;
+    align-items: center;
+    }
+    
+    #text{
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    }
+    
+    #G1{
+    width: 70%;
+    margin-left: 15%;
+    }
+    
+    .main1 button h3{
+    color: gold;
+    }
+    
+    .main1 button h4{
+    color: rgb(251, 251, 251);
+    }
+    
+    .main1 button{
+    background-color: blueviolet;
+    padding: 1%;
+    margin-left: 35%;
+    border: none;
+    border-radius: 5px;
+    }
+    
+    .wrap{
+    margin: 3%;
+    }
+    
+    /* Media Queries */
+    
+    /* For screens with max-width of 768px (tablets and below) */
+    @media (max-width: 768px) {
+    #G1{
+    width: 60%;
+    margin-left: 20%;
+    }
+    .main1 button{
+    margin-left: 25%;
+    }
+    }
+    
+    /* For screens with max-width of 480px (mobile devices) */
+    @media (max-width: 480px) {
+    #G1{
+    width: 50%;
+    margin-left: 25%;
+    }
+    .main1 button{
+    margin-left: 15%;
+    padding: 0.5%;
+    }
+    .wrap{
+    margin: 1%;
+    }
+    }
+    

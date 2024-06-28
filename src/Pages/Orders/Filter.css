@@ -1,0 +1,13 @@
+.filters {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.filters h3, .filters strong {
+  margin-bottom: 10px;
+}
+
+.filters div {
+  margin-bottom: 5px;
+}

@@ -1,0 +1,142 @@
+.CART{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+.content{
+
+    position: relative;
+    background-color:#e8e8e8;;
+    width: 95%;
+    height: 94vh;
+    justify-content: center;
+    display: flex;
+  
+    align-items: center;
+}
+
+.Cart1{
+    width: 30%;
+    height: 60%;
+}
+
+#A1{
+    position: absolute;
+    margin-top: 30%;
+}
+
+#A2{
+    position: absolute;
+    margin-top: 35%;
+}
+
+.login1{
+    position: absolute;
+    width: 15%;
+    margin-top: 42%;
+    text-decoration: none;
+    height: 40px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    
+
+}
+
+.login1 h7{
+margin: 40%;
+}
+
+.footer-cart{
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100% ;
+    margin-top: 55%;
+    height: 15%;
+    color: #333;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    list-style: none;
+}
+
+
+.headings ul {
+    list-style: none;
+    padding: 0;
+}
+
+.headings li {
+    margin: 10px 0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.headings li:hover {
+    color: #010000;
+}
+
+#i1{
+    position: absolute;
+      margin-top: 0;
+      margin-left:-40vw ;
+}
+
+#i2{
+    position: absolute;
+      margin-top: 0;
+      margin-left:-26vw ;
+}
+
+#i3{
+    position: absolute;
+    margin-top: 0;
+    margin-left:-18vw ;
+}
+
+#i4{
+    position: absolute;
+      margin-top: 0;
+      margin-left:-12.2vw ;
+}
+
+#i5{
+    position: absolute;
+      margin-top: 0;
+      margin-left:-6.8vw ;
+}
+
+#i6{
+    position: absolute;
+    margin-top: 0;
+    font-size: smaller;
+    margin-left:6.8vw ;
+
+}
+
+#i7{
+    position: absolute;
+    margin-top: 0;
+    font-size: smaller;
+    margin-left:20vw ;
+
+}
+
+
+@media (max-width: 767px) {
+.footer-cart,#A1 ,#A2,.login1{
+    display: none;
+}
+}
+
+@media (max-width: 480px) {
+    .footer-cart,#A1 ,#A2,.login1{
+        display: none;
+
+}
+}

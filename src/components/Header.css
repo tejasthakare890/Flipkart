@@ -1,0 +1,88 @@
+
+.Main{
+    height: 25vh;
+    width: 95%;
+    justify-content: space-evenly;
+    display: flex;
+    margin-left: 2.5%;
+    margin: 1%;
+    background-color: rgb(240, 240, 240);
+
+    }
+    
+    .Grocery, .Mobiles, .Fashion, .Electronics, .Appliances, .Travel {
+    width: 7%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0.447);
+    border-radius: 5%;
+
+    }
+    
+    .Grocery:hover, .Mobiles:hover, .Fashion:hover, .Electronics:hover, .Appliances:hover, .Travel:hover{
+    color: rgb(68, 105, 197);
+    }
+    
+    .fashion{
+    width: 90%;
+    height: 90%;
+    }
+    
+    #grocery, #mobiles, #fashion, #electronics, #appliances, #travel{
+    position: relative;
+    margin-left: 15%;
+    cursor: pointer;
+    }
+    
+    /* Media Queries */
+    
+    /* For screens with max-width of 768px (tablets and below) */
+    @media (max-width: 768px) {
+    .Main{
+    height: 15%;
+
+    }
+    .Grocery, .Mobiles, .Fashion, .Electronics, .Appliances, .Travel {
+    width: 10%;
+    }
+    .grocery, .mobiles, .electronics, .appliances, .travel{
+        width: 70%;
+        margin-top: 10%;
+    
+        }
+    .fashion{
+    width: 90%;
+    }
+    #grocery, #mobiles, #fashion, #electronics, #appliances, #travel{
+    margin-left: 10%;
+    font-size: small;
+    }
+    }
+    
+    /* For screens with max-width of 480px (mobile devices) */
+    @media (max-width: 480px) {
+    .Main{
+    height: 10%;
+    margin-top: 2%;
+    }
+    .Grocery, .Mobiles, .Fashion, .Electronics, .Appliances, .Travel {
+    width: 15%;
+    align-items: center;
+    justify-content: space-between;
+    display:grid ;
+    height: 110%;
+
+    }
+    .grocery, .mobiles, .electronics, .appliances, .travel{
+    width: 70%;
+    margin-top: 10%;
+
+    }
+
+    .fashion{
+    }
+    #grocery, #mobiles, #fashion, #electronics, #appliances, #travel{
+    margin-left: 5%;
+    font-size: smaller;
+    }
+    }
+    
